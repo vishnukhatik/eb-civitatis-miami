@@ -18,3 +18,11 @@ $ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+# Nextjs setup
+
+# Vuetify  theme
+
+# Fig 1 : 2 hour
+
+# Fig 2 : 4 hour
