@@ -3,7 +3,7 @@
     <div class="flex">
       <nav class="w-full eb-nav-container">
         <ul
-          class="relative eb-nav-menu w-full sm:w-auto self-end sm:self-center sm:flex flex-col sm:flex-row items-center h-full sm:py-0 sm:pb-0 hidden"
+          class="eb-nav-menu w-full sm:w-auto self-end sm:self-center sm:flex flex-col sm:flex-row items-center h-full sm:py-0 sm:pb-0 hidden"
         >
           <li
             class="eb-nav-menu-list text-white text-lg w-full no-underline sm:w-auto sm:p-4"
@@ -377,7 +377,7 @@ export default {
   max-width: 100%;
   min-height: 34.25rem;
   position: absolute;
-  top: 3.9375rem;
+  top: 8rem;
   left: 0;
   right: 0;
   width: 100%;
