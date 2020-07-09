@@ -43,7 +43,7 @@
               class="eb-top-dropdown-header flex justify-center items-center"
             >
               <!-- <span class="--abbr">ES</span> -->
-              <span style="font-size: 21px;">£</span>
+              <span style="font-size: 21px;" class="currency-icon">£</span>
             </div>
             <div class="eb-top-dropdown-body">
               <ul>
@@ -184,6 +184,7 @@ export default {
   position: relative;
   height: 4.2rem;
   border-bottom: 0;
+  font-weight: 300;
   padding: 0 1.25rem;
   color: #999;
   line-height: 2.6875;
@@ -199,7 +200,7 @@ export default {
 #top-bar .eb-top-dropdown-header::after {
   content: '⌄';
   font-size: 25px;
-  margin-top: -7px;
+  margin-top: -11px;
 }
 #top-bar .eb-top-dropdown-header:hover {
   background: #000;
@@ -256,6 +257,14 @@ export default {
 #top-bar .eb-dropdown-currency .eb-top-dropdown-body > ul li {
   max-width: 25%;
   float: left;
+}
+#top-bar .eb-dropdown-currency .currency-icon::before {
+  width: 10px;
+  height: 10px;
+  background: red;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 #top-bar .eb-dropdown-currency .eb-top-dropdown-body > ul li span:before {
   position: absolute;
